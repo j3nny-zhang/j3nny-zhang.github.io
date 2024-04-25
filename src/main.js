@@ -235,7 +235,7 @@ function command(str) {
     if (args.length == 0) return;
     if (args[0] == "help" && args.length == 1) {
         var s = 
-        "Welcome to Jenny's personal terminal shell. There are four simple commands to navigate around:<br>" +
+        "Welcome to Jenny's personal terminal shell. There are five simple commands to navigate around:<br>" +
         "&nbsp;&nbsp;help: Display information about commands.<br>" + 
         "&nbsp;&nbsp;cat &lt;file-path&gt;: View file contents.<br>" + 
         "&nbsp;&nbsp;cd &lt;directory&gt;: Change the current directory.<br>" + 
